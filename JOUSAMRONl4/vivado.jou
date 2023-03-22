@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Mar 22 13:20:09 2023
+# Process ID: 11576
+# Current directory: C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent936 C:\Users\electronica\Downloads\SDI1-main\SDI1-main\Laboratorio 4\JOUSAMRONl4\JOUSAMRON.xpr
+# Log file: C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/vivado.log
+# Journal file: C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.xpr}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/new/Compuerta1JOUSAMRON.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/new/Compuerta1JOUSAMRON.vhd}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/Downloads/JOUSAMRON Frases/Laboratorio4/Messages.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/Downloads/JOUSAMRON Frases/Laboratorio4/Messages.vhd}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/Downloads/JOUSAMRON Frases/Laboratorio4/Multiplexer.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/Downloads/JOUSAMRON Frases/Laboratorio4/message1-names.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/Downloads/JOUSAMRON Frases/Laboratorio4/message2-materia.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/Downloads/JOUSAMRON Frases/Laboratorio4/message3-nubia.vhd}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/Downloads/JOUSAMRON Frases/Laboratorio4/message4-grande.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/Downloads/JOUSAMRON Frases/Laboratorio4/Multiplexer.vhd} {C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/Downloads/JOUSAMRON Frases/Laboratorio4/message1-names.vhd} {C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/Downloads/JOUSAMRON Frases/Laboratorio4/message2-materia.vhd} {C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/Downloads/JOUSAMRON Frases/Laboratorio4/message3-nubia.vhd} {C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/Downloads/JOUSAMRON Frases/Laboratorio4/message4-grande.vhd}}
+add_files -norecurse {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/main.vhd} {C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/SEVEN_SEG_MSG3.vhd} {C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/SEVEN_SEG_MSG2.vhd} {C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/mux4a1.vhd} {C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/SEVEN_SEG_MSG1.vhd} {C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/SEVEN_SEG_MSG4.vhd} {C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/deco2a4A.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/main.vhd}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/main.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/main.vhd}}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/main.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/main.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/main.vhd}}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/x.vhd}}
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/SEVEN_SEG_MSG2.vhd}}]
+add_files -norecurse {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/SEVEN_SEG_MSG2.vhd}}
+set_property is_enabled true [get_files  {{C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.srcs/sources_1/SEVEN_SEG_MSG2.vhd}}]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1

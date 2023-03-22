@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Mar 22 13:18:18 2023
+# Process ID: 9568
+# Current directory: C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10640 C:\Users\electronica\Downloads\SDI1-main\SDI1-main\Laboratorio 4\JOUSAMRONl4\JOUSAMRON.xpr
+# Log file: C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/vivado.log
+# Journal file: C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/electronica/Downloads/SDI1-main/SDI1-main/Laboratorio 4/JOUSAMRONl4/JOUSAMRON.xpr}
+update_compile_order -fileset sources_1
