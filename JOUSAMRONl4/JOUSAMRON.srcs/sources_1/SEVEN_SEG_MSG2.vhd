@@ -5,7 +5,7 @@
 
         port (
             msg_indx: in std_logic_vector(4 downto 0);
-            letter: out std_logic_vector(6 downto 0)
+            letter: out std_logic_vector(7 downto 0)
             -- display: out std_logic_vector(3 downto 0)
         );
 
