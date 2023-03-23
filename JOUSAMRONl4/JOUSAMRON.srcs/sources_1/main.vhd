@@ -22,7 +22,6 @@ entity messages_storage is
 end messages_storage;
 
 architecture arch of messages_storage is
-begin
  
     -- Puede que aqui se necesite un process
     --    process (indx) 
@@ -89,22 +88,22 @@ begin
             
             msg1: entity work.SEVEN_SEG_MSG1 port map (
                 msg_indx => indx,
-                letter_out => letter_sigA);
+                letter => letter_sigA);
             msg2: entity work.SEVEN_SEG_MSG2 port map (
                 msg_indx => indx,
-                letter_out => letter_sigB);
+                letter => letter_sigB);
             msg3: entity work.SEVEN_SEG_MSG3 port map (
                 msg_indx => indx,
-                letter_out => letter_sigC);
+                letter => letter_sigC);
             msg4: entity work.SEVEN_SEG_MSG4 port map (
                 msg_indx => indx,
-                letter_out => letter_sigD);
+                letter => letter_sigD);
     
             mux: entity work.mux4a1 port map (
-                I(0)=>letter_sigA,
-                I(1)=>letter_sigB,
-                I(2)=>letter_sigC,
-                I(3)=>letter_sigD,
+                IA=>letter_sigA,
+                IB=>letter_sigB,
+                IC=>letter_sigC,
+                ID=>letter_sigD,
                 S=>s,
                 Y=>letter_out
                 );
