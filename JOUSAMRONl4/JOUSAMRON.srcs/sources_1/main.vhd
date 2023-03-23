@@ -25,8 +25,8 @@ architecture arch of messages_storage is
 begin
  
     -- Puede que aqui se necesite un process
-       process (indx) 
-             begin
+    --    process (indx) 
+    --          begin
             
 
     signal letter_sigA: std_logic_vector(7 downto 0);
@@ -36,54 +36,54 @@ begin
 
     -- Estas declaraciones parecen no ser necesarias:
 
-     component SEVEN_SEG_MSG1 is
+    --  component SEVEN_SEG_MSG1 is
 
-         port (
-             msg_indx: in std_logic_vector(4 downto 0);
-             letter: out std_logic_vector(7 downto 0)
-         );
+    --      port (
+    --          msg_indx: in std_logic_vector(4 downto 0);
+    --          letter: out std_logic_vector(7 downto 0)
+    --      );
 
-     end component;
+    --  end component;
 
-     component SEVEN_SEG_MSG2 is
+    --  component SEVEN_SEG_MSG2 is
 
-         port (
-             msg_indx: in std_logic_vector(4 downto 0);
-             letter: out std_logic_vector(7 downto 0)
-         );
+    --      port (
+    --          msg_indx: in std_logic_vector(4 downto 0);
+    --          letter: out std_logic_vector(7 downto 0)
+    --      );
 
-     end component;
+    --  end component;
 
-     component SEVEN_SEG_MSG3 is
+    --  component SEVEN_SEG_MSG3 is
 
-         port (
-             msg_indx: in std_logic_vector(4 downto 0);
-             letter: out std_logic_vector(7 downto 0)
-         );
+    --      port (
+    --          msg_indx: in std_logic_vector(4 downto 0);
+    --          letter: out std_logic_vector(7 downto 0)
+    --      );
 
-     end component;
+    --  end component;
 
-     component SEVEN_SEG_MSG4 is
+    --  component SEVEN_SEG_MSG4 is
 
-         port (
-             msg_indx: in std_logic_vector(4 downto 0);
-             letter: out std_logic_vector(7 downto 0)
-         );
+    --      port (
+    --          msg_indx: in std_logic_vector(4 downto 0);
+    --          letter: out std_logic_vector(7 downto 0)
+    --      );
 
-     end component;
+    --  end component;
 
-     component deco2a4A is
-         Port (
-         S : in STD_LOGIC_VECTOR (1 downto 0);
-         Y : out STD_LOGIC_VECTOR (3 downto 0)); 
-     end component;
+    --  component deco2a4A is
+    --      Port (
+    --      S : in STD_LOGIC_VECTOR (1 downto 0);
+    --      Y : out STD_LOGIC_VECTOR (3 downto 0)); 
+    --  end component;
 
-     component mux4a1 is
-         Port ( 
-         I : in STD_LOGIC_VECTOR (3 downto 0);
-         S : in STD_LOGIC_VECTOR (1 downto 0);
-         Y : out STD_LOGIC);
-      end component;
+    --  component mux4a1 is
+    --      Port ( 
+    --      I : in STD_LOGIC_VECTOR (3 downto 0);
+    --      S : in STD_LOGIC_VECTOR (1 downto 0);
+    --      Y : out STD_LOGIC);
+    --   end component;
 
     begin
             
@@ -114,5 +114,5 @@ begin
                 Y=>display
                 );
 
-        end process;
+        -- end process;
         end arch;
