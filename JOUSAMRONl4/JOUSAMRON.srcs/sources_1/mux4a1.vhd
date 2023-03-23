@@ -9,7 +9,7 @@ entity mux4a1 is
         IC : in STD_LOGIC_VECTOR (7 downto 0);
         ID : in STD_LOGIC_VECTOR (7 downto 0);
         S : in STD_LOGIC_VECTOR (1 downto 0);
-        Y : out STD_LOGIC_VECTO (7 downto 0)
+        Y : out STD_LOGIC_VECTOR (7 downto 0)
     );
  end mux4a1;
 
