@@ -16,7 +16,7 @@
             process (msg_indx)
             begin
 
-            -- DOÑA NUBIA LE MANDA SALUDOS PROFE --
+            -- DONA NUBIA LE MANDA SALUDOS PROFE --
             -- display <= "0100";
             
             case msg_indx is
@@ -24,8 +24,8 @@
             when x"01" => letter <= x"81";
             when x"02" => letter <= x"AA";
             when x"03" => letter <= x"88";
-            when x"04" => letter <= x"EA";
-            when x"05" => letter <= x"C0";
+            when x"04" => letter <= x"EB";
+            when x"05" => letter <= x"C1";
             when x"06" => letter <= x"E0";
             when x"07" => letter <= x"F9";
             when x"08" => letter <= x"88";
@@ -39,15 +39,15 @@
             when x"10" => letter <= x"A4";
             when x"11" => letter <= x"88";
             when x"12" => letter <= x"F1";
-            when x"13" => letter <= x"C0";
+            when x"13" => letter <= x"C1";
             when x"14" => letter <= x"C2";
             when x"15" => letter <= x"81";
             when x"16" => letter <= x"A4";
             when x"17" => letter <= x"98";
             when x"18" => letter <= x"FA";
             when x"19" => letter <= x"81";
-            when x"1A" => letter <= x"88";
-            when x"1B" => letter <= x"80";
+            when x"1A" => letter <= x"B8";
+            when x"1B" => letter <= x"B0";
             when others => letter <= x"FF";
             
         end case;

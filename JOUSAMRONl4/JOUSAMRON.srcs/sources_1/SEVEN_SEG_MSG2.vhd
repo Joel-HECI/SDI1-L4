@@ -39,14 +39,14 @@
             when x"0F" => letter <= x"88";
             when x"10" => letter <= x"98";
             when x"11" => letter <= x"FA";
-            when x"12" => letter <= x"80";
+            when x"12" => letter <= x"B0";
             when x"13" => letter <= x"EA";
             when x"14" => letter <= x"C2";
             when x"15" => letter <= x"B0";
             when x"16" => letter <= x"AB";
-            when x"17" => letter <= x"C0";
+            when x"17" => letter <= x"C1";
             when x"18" => letter <= x"B1";
-            when x"19" => letter <= x"C9";
+            when x"19" => letter <= x"C8";
             when x"1A" => letter <= x"81";
             when others => letter <= x"FF";
 

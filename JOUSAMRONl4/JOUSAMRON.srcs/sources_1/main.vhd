@@ -8,7 +8,7 @@ entity messages_storage is
         indx : in std_logic_vector(4 downto 0);
 
         -- 2 SWITCHES -- MULTIPLEXER CHANNEL
-        -- I/O: (U16 U17)
+        -- I/O: (V16 V17)
         s : in std_logic_vector(1 downto 0);
 
         -- 4 DISPLAYS

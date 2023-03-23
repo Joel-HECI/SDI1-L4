@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Mar 23 12:24:57 2023
+# Process ID: 6276
+# Current directory: C:/Users/electronica.ECINUT/Desktop/SDI1-L4-main/JOUSAMRONl4/JOUSAMRON.runs/impl_1
+# Command line: vivado.exe -log messages_storage.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source messages_storage.tcl -notrace
+# Log file: C:/Users/electronica.ECINUT/Desktop/SDI1-L4-main/JOUSAMRONl4/JOUSAMRON.runs/impl_1/messages_storage.vdi
+# Journal file: C:/Users/electronica.ECINUT/Desktop/SDI1-L4-main/JOUSAMRONl4/JOUSAMRON.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source messages_storage.tcl -notrace
