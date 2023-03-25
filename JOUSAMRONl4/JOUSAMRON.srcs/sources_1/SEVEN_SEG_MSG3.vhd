@@ -30,7 +30,7 @@
             when x"07" => letter <= x"F9";
             when x"08" => letter <= x"88";
             when x"09" => letter <= x"F1";
-            when x"0A" => letter <= x"B0";
+            when x"0A" => letter <= x"BO";
             when x"0B" => letter <= x"AB";
             when x"0C" => letter <= x"88";
             when x"0D" => letter <= x"EA";
