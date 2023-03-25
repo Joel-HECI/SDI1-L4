@@ -15,14 +15,39 @@
         begin
         process(msg_indx)
         BEGIN
-            --no estoy seguro del process por que segun lo que vi, no lo ponen,
-            --pero vivado lo pide, puede que sea solo cuando corre este arhivo directamente en la FPGA
-            
-            -- process msg_indx 
-            -- begin
-            
+           
             -- JOE HERNANDEZ  SAM LOPEZ  RON BARRETO --
-            -- display <= "1110";
+            -- v   w   x   y   z		dp	a	b	c	d	e	f	g
+            -- 0   0   0   0   0	J	1	1	0	0	0	0	1	1
+            -- 0   0   0   0   1	O	1	0	0	0	0	0	0	1
+            -- 0   0   0   1   0	E	1	0	1	1	0	0	0	0
+            -- 0   0   0   1   1	H	1	1	0	0	1	0	0	0
+            -- 0   0   1   0   0	E	1	0	1	1	0	0	0	0
+            -- 0   0   1   0   1	R	1	1	1	1	1	0	1	0
+            -- 0   0   1   1   0	N	1	1	1	0	1	0	1	0
+            -- 0   0   1   1   1	A	1	0	0	0	1	0	0	0
+            -- 0   1   0   0   0	N	1	1	1	0	1	0	1	0
+            -- 0   1   0   0   1	D	1	1	0	0	0	0	1	0
+            -- 0   1   0   1   0	E	1	0	1	1	0	0	0	0
+            -- 0   1   0   1   1	Z	1	0	0	1	0	0	1	0
+            -- 0   1   1   0   0	S	1	0	1	0	0	1	0	0
+            -- 0   1   1   0   1	A	1	0	0	0	1	0	0	0
+            -- 0   1   1   1   0	M	1	0	1	0	1	0	1	1
+            -- 0   1   1   1   1	L	1	1	1	1	0	0	0	1
+            -- 1   0   0   0   0	O	1	0	0	0	0	0	0	1
+            -- 1   0   0   0   1	P	1	0	0	1	1	0	0	0
+            -- 1   0   0   1   0	E	1	0	1	1	0	0	0	0
+            -- 1   0   0   1   1	Z	1	0	0	1	0	0	1	0
+            -- 1   0   1   0   0	R	1	1	1	1	1	0	1	0
+            -- 1   0   1   0   1	O	1	0	0	0	0	0	0	1
+            -- 1   0   1   1   0	N	1	1	1	0	1	0	1	0
+            -- 1   0   1   1   1	B	1	1	1	0	0	0	0	0
+            -- 1   1   0   0   0	A	1	0	0	0	1	0	0	0
+            -- 1   1   0   0   1	R	1	1	1	1	1	0	1	0
+            -- 1   1   0   1   0	R	1	1	1	1	1	0	1	0
+            -- 1   1   0   1   1	E	1	0	1	1	0	0	0	0
+            -- 1   1   1   0   0	T	1	1	1	1	0	0	0	0
+            -- 1   1   1   0   1	0	1	0	0	0	0	0	0	1
             
             case msg_indx is
             when x"00" => letter <= x"C3";

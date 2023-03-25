@@ -6,7 +6,7 @@
         port (
             msg_indx: in std_logic_vector(4 downto 0);
             letter: out std_logic_vector(7 downto 0)
-            -- display: out std_logic_vector(3 downto 0)
+            
         );
 
     end SEVEN_SEG_MSG3;
@@ -17,7 +17,36 @@
             begin
 
             -- DONA NUBIA LE MANDA SALUDOS PROFE --
-            -- display <= "0100";
+            
+            -- v   w   x   y   z	    dp  a	b	c	d	e	f	g
+            -- 0   0   0   0   0    D	1	1	0	0	0	0	1	0
+            -- 0   0   0   0   1    O	1	0	0	0	0	0	0	1
+            -- 0   0   0   1   0    Ñ	1	0	1	0	1	0	1	0
+            -- 0   0   0   1   1    A	1	0	0	0	1	0	0	0
+            -- 0   0   1   0   0    N	1	1	1	0	1	0	1	0
+            -- 0   0   1   0   1    U	1	1	0	0	0	0	0	1
+            -- 0   0   1   1   0    B	1	1	1	0	0	0	0	0
+            -- 0   0   1   1   1    I	1	1	1	1	1	0	0	1
+            -- 0   1   0   0   0    A	1	0	0	0	1	0	0	0
+            -- 0   1   0   0   1    L	1	1	1	1	0	0	0	1
+            -- 0   1   0   1   0    E	1	0	1	1	0	0	0	0
+            -- 0   1   0   1   1    M	1	0	1	0	1	0	1	1
+            -- 0   1   1   0   0    A	1	0	0	0	1	0	0	0
+            -- 0   1   1   0   1    N	1	1	1	0	1	0	1	0
+            -- 0   1   1   1   0    D	1	1	0	0	0	0	1	0
+            -- 0   1   1   1   1    A	1	0	0	0	1	0	0	0
+            -- 1   0   0   0   0    S	1	0	1	0	0	1	0	0
+            -- 1   0   0   0   1    A	1	0	0	0	1	0	0	0
+            -- 1   0   0   1   0    L	1	1	1	1	0	0	0	1
+            -- 1   0   0   1   1    U	1	1	0	0	0	0	0	1
+            -- 1   0   1   0   0    D	1	1	0	0	0	0	1	0
+            -- 1   0   1   0   1    O	1	0	0	0	0	0	0	1
+            -- 1   0   1   1   0    S	1	0	1	0	0	1	0	0
+            -- 1   0   1   1   1    P	1	0	0	1	1	0	0	0
+            -- 1   1   0   0   0    R	1	1	1	1	1	0	1	0
+            -- 1   1   0   0   1    O	1	0	0	0	0	0	0	1
+            -- 1   1   0   1   0    F	1	0	1	1	1	0	0	0
+            -- 1   1   0   1   1    E	1	0	1	1	0	0	0	0
             
             case msg_indx is
             when x"00" => letter <= x"C2";
@@ -30,7 +59,7 @@
             when x"07" => letter <= x"F9";
             when x"08" => letter <= x"88";
             when x"09" => letter <= x"F1";
-            when x"0A" => letter <= x"BO";
+            when x"0A" => letter <= x"B0";
             when x"0B" => letter <= x"AB";
             when x"0C" => letter <= x"88";
             when x"0D" => letter <= x"EA";
