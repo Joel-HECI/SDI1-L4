@@ -22,11 +22,6 @@ entity messages_storage is
 end messages_storage;
 
 architecture arch of messages_storage is
- 
-    -- Puede que aqui se necesite un process
-    --    process (indx) 
-    --          begin
-            
 
     signal letter_sigA: std_logic_vector(7 downto 0);
     signal letter_sigB: std_logic_vector(7 downto 0);
@@ -62,5 +57,4 @@ architecture arch of messages_storage is
                 Y=>display
                 );
 
-        -- end process;
         end arch;
