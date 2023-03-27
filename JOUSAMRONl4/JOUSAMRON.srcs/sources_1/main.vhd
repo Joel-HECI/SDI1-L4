@@ -33,57 +33,6 @@ architecture arch of messages_storage is
     signal letter_sigC: std_logic_vector(7 downto 0);
     signal letter_sigD: std_logic_vector(7 downto 0);
 
-    -- Estas declaraciones parecen no ser necesarias:
-
-    --  component SEVEN_SEG_MSG1 is
-
-    --      port (
-    --          msg_indx: in std_logic_vector(4 downto 0);
-    --          letter: out std_logic_vector(7 downto 0)
-    --      );
-
-    --  end component;
-
-    --  component SEVEN_SEG_MSG2 is
-
-    --      port (
-    --          msg_indx: in std_logic_vector(4 downto 0);
-    --          letter: out std_logic_vector(7 downto 0)
-    --      );
-
-    --  end component;
-
-    --  component SEVEN_SEG_MSG3 is
-
-    --      port (
-    --          msg_indx: in std_logic_vector(4 downto 0);
-    --          letter: out std_logic_vector(7 downto 0)
-    --      );
-
-    --  end component;
-
-    --  component SEVEN_SEG_MSG4 is
-
-    --      port (
-    --          msg_indx: in std_logic_vector(4 downto 0);
-    --          letter: out std_logic_vector(7 downto 0)
-    --      );
-
-    --  end component;
-
-    --  component deco2a4A is
-    --      Port (
-    --      S : in STD_LOGIC_VECTOR (1 downto 0);
-    --      Y : out STD_LOGIC_VECTOR (3 downto 0)); 
-    --  end component;
-
-    --  component mux4a1 is
-    --      Port ( 
-    --      I : in STD_LOGIC_VECTOR (3 downto 0);
-    --      S : in STD_LOGIC_VECTOR (1 downto 0);
-    --      Y : out STD_LOGIC);
-    --   end component;
-
     begin
             
             msg1: entity work.SEVEN_SEG_MSG1 port map (
